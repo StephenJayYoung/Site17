@@ -33,6 +33,38 @@ fixed-head {
     box-shadow: none !important;
 }
 
+/*Specials Overrides*/
+
+.pricing-tbl:hover {
+    background-color: #fff !important;
+}
+
+.pricing-tbl ul li:first-child {
+    color: red !important;
+}
+
+.pricing-tbl ul li:first-child:hover {
+    color: red !important;
+}
+
+.pricing-box-responsive{
+    color: red !important;
+    margin-bottom: 20px !important;
+    margin-top: 20px !important
+}
+
+.d-codes{
+    color: red !important;
+}
+
+.pricing-tbl.style-3:hover h3, .pricing-tbl.style-3.selected h3 {
+     color: red; 
+}
+
+.pricing-tbl.style-3 h3, .pricing-tbl.style-3.selected h3 {
+     color: red; 
+}
+
 /** ACTIONS OVERRIDES */
 
 #calls-to-action{padding:20px 0;border:0!important;background-color:#1f4880;text-shadow:1px 1px 1px rgba(0,0,0,.2);border-radius:3px;}
