@@ -1,3 +1,20 @@
+/*General Overrides*/
+p {
+     margin: 0 0 0px 0 !important; 
+}
+
+
+
+
+/*Nav Overrides*/
+.up-head {
+     padding: 0px 0 !important; 
+}
+
+.top-head.header-4 .top-cart {
+    padding: 0px 0 0 0px !important;
+}
+
 .mobile-location-logo{
     width: 25%;
     margin-top: -50px;
