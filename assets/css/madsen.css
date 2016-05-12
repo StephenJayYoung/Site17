@@ -39,6 +39,11 @@ fixed-head {
     background-color: #fff !important;
 }
 
+.pricing-tbl {
+    border: 1px #e4e4e4 solid;
+    padding-bottom: 15px !important;
+}
+
 .pricing-tbl ul li:first-child {
     color: red !important;
 }
@@ -49,12 +54,28 @@ fixed-head {
 
 .pricing-box-responsive{
     color: red !important;
+    margin-bottom: 45px !important;
+    margin-top: 20px !important
+}
+
+.pricing-box-responsive-two{
+    color: red !important;
+    margin-bottom: 45px !important;
+    margin-top: 20px !important
+}
+
+.pricing-box-responsive-three{
+    color: red !important;
     margin-bottom: 20px !important;
     margin-top: 20px !important
 }
 
 .d-codes{
     color: red !important;
+}
+
+.pricing-tbl:hover {
+border: 1px solid #ededed !important;
 }
 
 .pricing-tbl.style-3:hover h3, .pricing-tbl.style-3.selected h3 {
@@ -105,6 +126,14 @@ head.header-2 .top-cart.new-angle > a:before {
     border-bottom-left-radius: none !important;
 }
 
+/*.lg-box:hover{
+    border: none !important;
+    border-color: #fff;
+}*/
+
+.new-angle, .panel.new-angle, .contact-widget .details li i.new-angle:before, .filter-by ul li.new-angle:after, .filter-by ul li.new-angle.active a, .top-head.header-2 .top-search.new-angle > a:before, .top-head.header-2 .top-cart.new-angle > a:before {
+    border: none !important;
+}
 
 
 /*MODAL OVERRIDES*/
