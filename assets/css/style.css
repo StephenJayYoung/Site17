@@ -10356,12 +10356,12 @@ video{
   12. SHAPES
 ============================================================================= */
 .new-angle,.panel.new-angle,.contact-widget .details li i.new-angle:before,.filter-by ul li.new-angle:after,.filter-by ul li.new-angle.active a,.top-head.header-2 .top-search.new-angle > a:before, .top-head.header-2 .top-cart.new-angle > a:before{
-	border-top-right-radius: 1.2em;
-	border-bottom-left-radius: 1.2em;
+/*	border-top-right-radius: 1.2em;
+	border-bottom-left-radius: 1.2em;*/
 }
 .new-angle.lg,.contact-widget .details li i.new-angle.lg:before{
-	border-top-right-radius: 3em;
-	border-bottom-left-radius: 3em;
+/*	border-top-right-radius: 3em;
+	border-bottom-left-radius: 3em;*/
 }
 .new-angle.sm,.contact-widget .details li i.new-angle.sm:before,.icon-box-small i.new-angle.sm:after{
 	border-top-right-radius: 10px;
