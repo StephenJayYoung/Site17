@@ -4,6 +4,10 @@
     margin-bottom: 20px;
 }
 
+.section {
+    padding: 60px 0 !important;
+}
+
 /*Navigation Overrides*/
 fixed-head {
     border: 1px rgba(255,255,255,0.4) solid;
