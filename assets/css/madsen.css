@@ -36,9 +36,9 @@ h2{
     padding: 60px 0 !important;
 }
 
-.top-head.header-3, .top-head.header-4 {
+/*.top-head.header-3, .top-head.header-4 {
     padding: 40px 0 0;
-}
+}*/
 
 fixed-head {
     border: 1px rgba(255,255,255,0.4) solid;
@@ -70,6 +70,17 @@ fixed-head {
     border: 1px solid #000 !important;
 }
 
+.pricing-tbl.style-3 .price_txt, .pricing-tbl.style-4 .plan-head, .pricing-tbl.style-4 .plan-head:before, .pricing-tbl.style-4 .plan-head:after, .pricing-tbl.style-2 h3, th, .testimonials-3 .testimonials-name {
+    background-color: #F24D24;
+    color: #fff;
+}
+
+.pricing-tbl.style-3 .price_txt span {
+    color: #fff;
+}
+
+
+
 .specials-borders:before {
   content: " " !important;
   position: absolute !important;
@@ -91,15 +102,15 @@ fixed-head {
 }
 
 .pricing-tbl ul li:first-child {
-    color: red !important;
+    color: #444 !important;
 }
 
 .pricing-tbl ul li:first-child:hover {
-    color: red !important;
+    color: #444 !important;
 }
 
 .pricing-box-responsive{
-    color: red !important;
+    color: #444 !important;
     margin-bottom: 45px !important;
     margin-top: 20px !important
 }
@@ -117,7 +128,7 @@ fixed-head {
 }
 
 .d-codes{
-    color: red !important;
+    color: #444 !important;
 }
 
 .pricing-tbl:hover {
@@ -129,7 +140,8 @@ border: 1px solid #ededed !important;
 }
 
 .pricing-tbl.style-3 h3, .pricing-tbl.style-3.selected h3 {
-     color: red; 
+     color: #000; 
+     font-size: 25px;
 }
 
 /** ACTIONS OVERRIDES */
