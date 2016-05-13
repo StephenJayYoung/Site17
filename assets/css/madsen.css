@@ -21,6 +21,10 @@ h2{
     font-weight: bold;
 }
 
+.btn{
+    font-weight: bold;
+}
+
 .btn:hover{
     background-color: #B5A822 !important;
 }
@@ -185,9 +189,9 @@ border: 1px solid #ededed !important;
     border: 1px solid #fff;
 }
 
-#calls-to-action .btn: hover{
-    background-color: #fff !important;
-    color: #DB5A00;
+#calls-to-action .btn:hover{
+    background-color: #B5A822 !important;
+    color: #fff !important;
     font-weight:bold;
     border: 1px solid #fff;
 }
