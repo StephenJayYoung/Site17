@@ -1,14 +1,20 @@
 /*General Overrides*/
+
+body {
+    color: #444;
+}
+
 p {
      margin: 0 0 0px 0; 
 }
 
-h1, h2, h3, h4, h5, h6 {
-     margin: 0px; 
+h1, h3, h4, h5, h6 {
+     margin: 0px;
 }
 
 h2{
     margin: 20px;
+    color: #796d22;
 }
 
 /*Nav Overrides*/
@@ -116,7 +122,7 @@ border: 1px solid #ededed !important;
 
 /** ACTIONS OVERRIDES */
 
-#calls-to-action{padding:60px 0;border:0!important;background-color:#1f4880;text-shadow:1px 1px 1px rgba(0,0,0,.2);border-radius:3px;}
+#calls-to-action{padding:60px 0;border:0!important;background-color: #F24D24;text-shadow:1px 1px 1px rgba(0,0,0,.2);border-radius:3px;}
 @media(max-width: 480px){ #calls-to-action{padding:10px 0;}}
 #calls-to-action h3{color:#f2f2f2 !important;font-size:15px;font-weight:700;margin-bottom:0;}
 #calls-to-action h3 a{margin-top:-10px;display:block;color:#ffffff;font-size:3em;}
@@ -144,7 +150,11 @@ border: 1px solid #ededed !important;
 
 
 /*Services Overrides*/
-.services-margin{margin-bottom: 0px !important}
+.services-margin{margin-bottom: 0px !important; color: #DB5A00;}
+
+#services {
+    background-color: #F3F2DB;
+}
 
 /*Testimonials Overrides*/
 .testimonials-4 .testimonials-bg {
@@ -175,6 +185,18 @@ head.header-2 .top-cart.new-angle > a:before {
 /*Footer Overrides*/
 .footer-middle {
     padding: 30px 0;
+}
+
+.fa-phone-square:before {
+    color: #DA7330;
+}
+
+.fa-map-marker:before {
+    color: #DA7330;
+}
+
+.fa-calendar:before {
+    color: #DA7330;
 }
 
 /*MODAL OVERRIDES*/
