@@ -21,6 +21,10 @@ h2{
     font-weight: bold;
 }
 
+.btn:hover{
+    background-color: #B5A822 !important;
+}
+
 /*Nav Overrides*/
 .up-head {
      padding: 0px 0 !important; 
@@ -164,15 +168,29 @@ border: 1px solid #ededed !important;
 #calls-to-action .schedule-online{border-left:1px solid rgba(0, 0, 0, .1);padding-left:20px;text-align:left;}
 .device-xs #calls-to-action .phone-numbers, .device-xs #calls-to-action .schedule-online,
 .device-xxs #calls-to-action .phone-numbers, .device-xxs #calls-to-action .schedule-online{border-left:none;border-right:none;padding-left:0;padding-right:0;text-align:center;}
-#calls-to-action .schedule-online a.button, #schedule-form button.btn-block, #services a.button{background-color:#fcb426;color:#1f4880;text-shadow:1px 1px 1px rgba(255,255,255,0.2);opacity:1;}
-.device-xs #calls-to-action .schedule-online a.button,
+/*#calls-to-action .schedule-online a.button, #schedule-form button.btn-block, #services a.button{background-color:#fcb426;color:#1f4880;text-shadow:1px 1px 1px rgba(255,255,255,0.2);opacity:1;}
+*/.device-xs #calls-to-action .schedule-online a.button,
 .device-xxs #calls-to-action .schedule-online a.button{font-size:12px;padding:5px 10px !important;line-height:25px;}
-#calls-to-action .schedule-online a.button:hover, #schedule-form button.btn-block:hover, #services a.button:hover{background-color:#ffc451 !important;opacity:1;}
-#calls-to-action .existing-patients p{font-size:24px;margin:0;}
+/*#calls-to-action .schedule-online a.button:hover, #schedule-form button.btn-block:hover, #services a.button:hover{background-color:#ffc451 !important;opacity:1;}
+*/#calls-to-action .existing-patients p{font-size:24px;margin:0;}
 .device-xs #calls-to-action .existing-patients p,
 .device-xxs #calls-to-action .existing-patients p{font-size:20px;}
 #calls-to-action .existing-patients p a{font-weight:bold;}
 @media(max-width: 762px){.existing-patients p a{margin-top:-10px;display:block;}}
+
+#calls-to-action .btn{
+    background-color: #fff !important;
+    color: #DB5A00;
+    font-weight:bold;
+    border: 1px solid #fff;
+}
+
+#calls-to-action .btn: hover{
+    background-color: #fff !important;
+    color: #DB5A00;
+    font-weight:bold;
+    border: 1px solid #fff;
+}
 
 /*Reviews Overrides*/
 
