@@ -220,11 +220,13 @@
 											<li>Summit Dental Study Club</li>
 										</ul>	
 												<ul class="social-list margin-top-20">
-												    <li><a data-tooltip="true" data-title="facebook" href="https://www.facebook.com/MadsenDentistry/" class="fa fa-facebook dark-bg shape sm"></a></li>
-												    <li><a data-tooltip="true" data-title="yelp" href=" http://www.yelp.com/biz/madsen-christopher-r-dds-puyallup" class="fa fa-yelp dark-bg shape sm"></a></li>
-													</ul>
-<!-- 											</li> -->
-<!-- 										</ul> -->
+                                <a href="https://www.facebook.com/MadsenDentistry/" target="_blank" class="nobottommargin" style="margin-right: 10px;">
+                                    <img src="assets/images/social/facebook.png" alt="" />
+                                </a>
+                                <a href="http://www.yelp.com/biz/madsen-christopher-r-dds-puyallup" target="_blank" class="nobottommargin" style="margin-right: 10px;">
+                                    <img src="assets/images/social/yelp.png" alt="" />
+                                </a>
+												</ul>
 									</div>
 								</div>
 								<div class="col-md-8">
@@ -246,10 +248,12 @@
 						<div class="container">
 							<div class="heading centered" style="margin-bottom: 30px">
 								<h2 class="centered">Limited Time Specials </h2>
+							<p>New uninsured patients only</p>
 							</div>
+
 							<div class="row">
 								<div class="col-md-4">
-				    				<div class="pricing-tbl style-3 shape">
+				    				<div class="pricing-tbl style-3 shape specials-borders">
 				    					<h3>New Patient Dental Exam</h3>
 				    					<ul>
                           <li class="price_txt"><span class="price-lg">$65</span></li>
@@ -374,7 +378,7 @@
 						<div class="container">
 							<div class="heading centered" >
 							<h2 style="margin-bottom: 0px">Services </h2>
-							<h4 style="margin-top: 0px; margin-bottom: 30px">Click on any service below to learn more about our offerings</h4>
+							<h4 style="margin-top: 0px; margin-bottom: 30px">Click on any service below to learn more about our offerings.</h4>
 						</div>
 							<div class="portfolio p-4-cols simple" id="container">
 
@@ -387,7 +391,7 @@
                         </div>
                         <div class="portfolio-desc centered">
                             <a data-toggle="modal" data-target="#one-visit-crowns" href="#"><h3 class="services-margin">One-Visit Crowns</h3>
-                            <p class="click-for-info text-center" style="margin-top: -30px">Click for more information</p></a>
+                            <p class="click-for-info text-center">Click for more information</p></a>
                         </div>
 
                         <!-- One-Visit Crowns CONTENT -->
@@ -1051,8 +1055,17 @@ jQuery(document).ready(function($){
 });
 				</script>
 				
+        <!-- Specials Heading Template
+        ============================================= -->
+        <script type="text/template" id="specials-template">
+            <h2 style="color: #2a3b8f;">Limited Time <%-  data.season %>&nbsp;Specials</h2>
+            <span style="font-size: 30px; color: #000;">Offer ends <%= data.endMonth %>&nbsp;<%= data.endDay %>,&nbsp;<%= data.endYear %><br /></span><span style="font-size: 23px; color: #000"><strong>New uninsured patients only.</strong></span>
+        </script>
+
 		<!-- general script file -->
 		<script type="text/javascript" src="assets/js/script.js"></script>
+		<script type="text/javascript" src="assets/js/specials.js"></script>
+
 		
 	</body>
 </html>

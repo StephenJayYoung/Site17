@@ -47,6 +47,22 @@ fixed-head {
 
 /*Specials Overrides*/
 
+.specials-borders{
+    position: relative !important;
+    border: 1px solid #000 !important;
+}
+
+.specials-borders:before {
+  content: " " !important;
+  position: absolute !important;
+  z-index: -1 !important;
+  top: 5px !important;
+  left: 5px !important;
+  right: 5px !important;
+  bottom: 5px !important;
+  border: 1px solid #000 !important;
+}
+
 .pricing-tbl:hover {
     background-color: #fff !important;
 }
