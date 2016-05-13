@@ -123,6 +123,11 @@ border: 1px solid #ededed !important;
 /*Services Overrides*/
 .services-margin{margin-bottom: 0px !important}
 
+/*Testimonials Overrides*/
+.testimonials-4 .testimonials-bg {
+     border: none !important; 
+}
+
 /*Location Overrides*/
 head.header-2 .top-cart.new-angle > a:before {
      border-top-right-radius: none !important; 
