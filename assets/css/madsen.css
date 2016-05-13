@@ -41,6 +41,10 @@ fixed-head {
     box-shadow: none !important;
 }
 
+#team li{
+    list-style: disc;
+}
+
 /*Specials Overrides*/
 
 .pricing-tbl:hover {
