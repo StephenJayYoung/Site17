@@ -149,6 +149,11 @@ head.header-2 .top-cart.new-angle > a:before {
 }*/
 
 
+/*Footer Overrides*/
+.footer-middle {
+    padding: 30px 0;
+}
+
 /*MODAL OVERRIDES*/
 .modal-body{
 	font-size: 15px;
