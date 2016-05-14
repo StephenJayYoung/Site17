@@ -496,7 +496,7 @@
 					t_auto 		= $(this).attr('data-slider-auto'),
 					fd 			= false,
 					tinfinite 	= false,
-					aut 		= false,
+					aut 		= true,
 					arr 		= true,
 					tdots 		= true,
 					resp_n 		= 1;

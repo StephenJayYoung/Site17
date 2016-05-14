@@ -93,37 +93,6 @@
 		    </header>
 
 
-
-
-
-
-<!--     </header> -->
-<!-- 		<div class="pageWrapper animsition">
-			<header class="top-head" data-sticky="true">
-		    	<div class="container">
-			    	<! Logo start -->
-<!-- 			    	<div class="logo">
-				    	<a href="index.html"><img alt="" src="assets/images/website-logo.svg" style="width: 33%; height: 33%; margin-top:7px;margin-bottom:7px" /></a>
-				    </div>  -->
-				    <!-- Logo end -->
-				    
-<!-- 					<div class="f-right responsive-nav">
- -->						<!-- top navigation menu start -->
-<!-- 						<nav class="top-nav nav-animate to-right one-page">
-								<ul>
-									<li class="current"><a href="#home">Home</a></li>
-									<li><a href="#team">Team</a></li>
-									<li><a href="#specials">Specials</a></li>
-									<li><a href="#reviews">Reviews</a></li>
-									<li><a href="#services">Services</a></li>
-									<li><a href="#location">Location</a></li>
-								</ul>
-						</nav> -->
-						<!-- top navigation menu end -->
-<!-- 
-					</div>
-		    	</div>
-		    </header> -->
 		    
              <!-- Slider
                 ============================================= -->
@@ -134,7 +103,7 @@
 
                                 <!-- Slide 1
                                 ============================================= -->
-                                <li data-transition="zoomout" data-slotamount="1" data-masterspeed="1500" data-saveperformance="off">
+                                <li data-transition="zoomout" style="" data-slotamount="1" data-masterspeed="1500" data-saveperformance="off">
 
                                     <!-- MAIN IMAGE -->
                                     <img src="assets/images/slider/slide.jpg"  alt="" data-lazyload="assets/images/slider/slide-one.jpg" data-bgposition="center top" data-scale="cover" data-bgrepeat="no-repeat">
@@ -142,7 +111,7 @@
                                     <!-- LAYER 1 -->
                                     <div class="tp-caption tp-resizeme customin"
                                         data-x="right"
-                                        data-y="middle"
+                                        data-y="top"
                                         data-hoffset="['100','0','0','0']"
                                         data-voffset="['75','0','0','0']"
                                         data-customin="x:0;y:-140;z:0;rotationZ:0;scaleX:1;scaleY:1;skewX:0;skewY:0;s:400;opacity:0;transformPerspective:500;transformOrigin:50% 50%;"
@@ -157,9 +126,26 @@
                                         data-endeasing="Power4.easeIn">
                                         <img src="assets/images/slider/headline.png" alt="" />
                                     </div>
-                                    <div>
-                      					    <a class="btn main-bg btn-lg shape" href="#" data-toggle="modal" data-target="#schedule-form" style="margin-top: 10px">Request Appointment</a>
-                      					    </div>
+
+                                    <!-- LAYER 2 -->
+                                    <div class="tp-caption visible-lg visible-md customin"
+                                        data-x="right"
+                                        data-y="bottom"
+                                        data-hoffset="['350','0','0','0']"
+                                        data-voffset="['75','0','0','0']"
+                                        data-customin="x:0;y:-140;z:0;rotationZ:0;scaleX:1;scaleY:1;skewX:0;skewY:0;s:400;opacity:0;transformPerspective:500;transformOrigin:50% 50%;"
+                                        data-speed="400"
+                                        data-start="1200"
+                                        data-easing="easeOutQuad"
+                                        data-splitin="none"
+                                        data-splitout="none"
+                                        data-elementdelay="0.1"
+                                        data-endelementdelay="0.3"
+                                        data-endspeed="1000"
+                                        data-endeasing="Power4.easeIn">
+					    													<a class="btn main-bg btn-xl shape" href="#" data-toggle="modal" style="" data-target="#schedule-form">Click to Make Your Appointment</a>
+                                    </div>
+
                                 </li>
 
                             </ul>
@@ -175,7 +161,26 @@
 							<h2>Meet The Doctor</h2>
 						</div>
 
-						<div class="container">
+    			<div class="padding-vertical-50">
+    				<div class="container">
+    					<div class="flexslider boxed-slider">
+							<ul class="slides">
+								<li>
+									<img alt="" src="assets/images/team/1.jpg" />
+								</li>
+								<li>
+									<img alt="" src="assets/images/team/2.jpg" />
+								</li>
+								<li>
+									<img alt="" src="assets/images/team/3.jpg" />
+								</li>
+							</ul>
+						</div>
+    				</div>
+    			</div>
+
+
+<!-- 						<div class="container">
 							<div class="slick-gal pro-gallery">
 								<div>
 									<img alt="" src="assets/images/team/1.jpg">
@@ -187,7 +192,7 @@
 									<img alt="" src="assets/images/team/3.jpg">
 								</div>
 							</div>
-						</div>
+						</div> -->
 
 					<div class="text-center hidden-xs" style="margin-top: 80px">
 					<h4 style="margin-bottom: 17px; font-size: 15px">Dr. Christopher Madsen and his family welcome you to a wonderful dental experience that is sure to make you smile!</h4>
@@ -1055,9 +1060,24 @@ jQuery(document).ready(function($){
             <span style="font-size: 30px; color: #000;">Offer ends <%= data.endMonth %>&nbsp;<%= data.endDay %>,&nbsp;<%= data.endYear %><br /></span><span style="font-size: 23px; color: #000"><strong>New uninsured patients only.</strong></span>
         </script>
 
+	    <!-- Load JS plugins file -->
+ 		<script type="text/javascript" src="assets/js/assets.min.js"></script>
+ 		
+ 		<!-- FLEX SLIDER SCRIPTS  -->
+ 		<link rel="stylesheet" href="assets/css/sliders/flexslider.css" />
+		<script type="text/javascript" src="assets/js/sliders/jquery.flexslider-min.js"></script>
+		<script type="text/javascript">
+			$(window).load(function() {
+				$('.flexslider').flexslider({
+					animation: "fade"
+				});
+			});
+		</script>
+
 		<!-- general script file -->
 		<script type="text/javascript" src="assets/js/script.js"></script>
 		<script type="text/javascript" src="assets/js/specials.js"></script>
+
 
 		
 	</body>
