@@ -2,12 +2,18 @@
 
 body {
     color: #444;
+    font-family: 'Gentium Book Basic', serif;
 }
 
 p {
      margin: 0 0 0px 0; 
      color: #444;
      font-size: 16px;
+     font-family: 'Gentium Book Basic', serif;
+}
+
+a{
+    font-family: 'Open Sans', sans-serif;
 }
 
 h1, h3, h4, h5, h6 {
@@ -19,6 +25,9 @@ h2{
     color: #796d22;
     font-size: 35px;
     font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
+
 }
 
 .btn{
