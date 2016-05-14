@@ -781,12 +781,12 @@
 										            scaleControl: false,
 										            streetViewControl: false,
 										            overviewMapControl: false,
-										            draggable: true,
+										            draggable: false,
 										            scrollwheel: false,
              center:new google.maps.LatLng(47.153118, -122.281991),mapTypeId: google.maps.MapTypeId.ROADMAP};
 				    		    map = new google.maps.Map(document.getElementById("map_canvas"), myOptions);
 				    		    marker = new google.maps.Marker({map: map,icon: iconBase + 'marker.png',animation: google.maps.Animation.DROP,position: new google.maps.LatLng(47.153118, -122.281991)});
-				    		    infowindow = new google.maps.InfoWindow({content:"<div class='noScroll'><b>3928 10th St SE</b><br/>Puyallup, WA 98374</div>" });
+				    		    infowindow = new google.maps.InfoWindow({content:"<div class='noScroll'><b>3928 10th St SE</b><br/>Puyallup, WA 98374</a></div>" });
 				    		    google.maps.event.addListener(marker, "click", function(){
 				    			    infowindow.open(map,marker);
 				    		    });
@@ -814,7 +814,7 @@
 								    <p>3928 10th St SE
                     <br>
                     Puyallup, WA 98374</p>
-                    <a style="color: #DA7330; text-decoration: underline" href="https://www.google.com/maps/place/3928+10th+St+SE,+Puyallup,+WA+98374/@47.1531179,-122.2841797,17z/data=!3m1!4b1!4m5!3m4!1s0x5490fc5edd5f5745:0x8d512cfbe07b51c!8m2!3d47.1531179!4d-122.281991" target="_blank">Click to view a larger map</a>
+                    <a style="color: #DA7330; text-decoration: underline; font-size: 15px" href="https://www.google.com/maps/place/3928+10th+St+SE,+Puyallup,+WA+98374/@47.1531179,-122.2841797,17z/data=!3m1!4b1!4m5!3m4!1s0x5490fc5edd5f5745:0x8d512cfbe07b51c!8m2!3d47.1531179!4d-122.281991" target="_blank">Click to view a larger map</a>
 							    </div>
 						    </div>
 
