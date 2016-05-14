@@ -26,7 +26,7 @@ h2{
 }
 
 .btn:hover{
-    background-color: #B5A822 !important;
+    background-color:  #f3f1dc !important;
 }
 
 /*Nav Overrides*/
@@ -93,7 +93,7 @@ fixed-head {
 }
 
 .pricing-tbl.style-3 .price_txt, .pricing-tbl.style-4 .plan-head, .pricing-tbl.style-4 .plan-head:before, .pricing-tbl.style-4 .plan-head:after, .pricing-tbl.style-2 h3, th, .testimonials-3 .testimonials-name {
-    background-color: #F24D24;
+    background-color: #db5901;
     color: #fff;
 }
 
@@ -191,7 +191,7 @@ border: 1px solid #ededed !important;
 #calls-to-action p, #calls-to-action span{color:#ffffff;margin-top:8px;}
 #calls-to-action span a{color:inherit;}
 #calls-to-action a.button{height:auto!important;padding:5px 20px!important;}
-#calls-to-action .phone-numbers{border-right:1px solid rgba(255, 255, 255, .2);padding-right:20px;text-align:right;}
+#calls-to-action .phone-numbers{border-right:1px solid #fff;padding-right:20px;text-align:right;}
 #calls-to-action .schedule-online{border-left:1px solid rgba(0, 0, 0, .1);padding-left:20px;text-align:left;}
 .device-xs #calls-to-action .phone-numbers, .device-xs #calls-to-action .schedule-online,
 .device-xxs #calls-to-action .phone-numbers, .device-xxs #calls-to-action .schedule-online{border-left:none;border-right:none;padding-left:0;padding-right:0;text-align:center;}
@@ -210,13 +210,12 @@ border: 1px solid #ededed !important;
     color: #DB5A00;
     font-weight:bold;
     border: 1px solid #fff;
+    box-shadow: 3px 3px 3px #444;
+
 }
 
 #calls-to-action .btn:hover{
-    background-color: #B5A822 !important;
-    color: #fff !important;
-    font-weight:bold;
-    border: 1px solid #fff;
+    background-color: #f3f1dc !important;
 }
 
 /*Reviews Overrides*/
