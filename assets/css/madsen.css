@@ -68,18 +68,20 @@ fixed-head {
 
 #team{
     background-color:#F3F2DB;
-    padding-bottom: 20px;
+    padding-bottom: 40px;
 }
 
-.slick-slider {
-    box-shadow: none !important;
-}
 
 #team li{
     list-style: disc;
 }
 
 /*Specials Overrides*/
+
+.pricing-tbl .price-lg {
+    font-size: 46px;
+    font-weight: bold;
+}
 
 #specials{
     background-color: #fff;
@@ -114,11 +116,14 @@ fixed-head {
 
 .pricing-tbl:hover {
     background-color: #fff !important;
+    border: 1px #000 solid !important;
+
 }
 
 .pricing-tbl {
-    border: 1px #e4e4e4 solid;
+    border: 1px #000 solid;
     padding-bottom: 15px !important;
+    border-right: 1px solid #000;
 }
 
 .pricing-tbl ul li:first-child {
@@ -151,9 +156,9 @@ fixed-head {
     color: #444 !important;
 }
 
-.pricing-tbl:hover {
+/*.pricing-tbl:hover {
 border: 1px solid #ededed !important;
-}
+}*/
 
 .pricing-tbl.style-3:hover h3, .pricing-tbl.style-3.selected h3 {
      color: red; 
