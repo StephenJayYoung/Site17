@@ -222,10 +222,14 @@ border: 1px solid #ededed !important;
 
 
 /*Services Overrides*/
-.services-margin{margin-bottom: 0px !important; color: #DB5A00;}
+.services-margin{margin-bottom: 0px !important; color: #DB5A00; font-size: 22px;}
 
 #services {
     background-color: #F3F2DB;
+}
+
+.click-for-info{
+    font-size: 14px;
 }
 
 /*Testimonials Overrides*/
