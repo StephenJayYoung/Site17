@@ -140,14 +140,24 @@ fixed-head {
     margin-top: 20px !important
 }
 
+.pricing-box-responsive:hover{
+    color: #444 !important;
+    margin-top: 20px !important
+}
+
+.pricing-box-responsive-one{
+    color: #444 !important;
+    margin-bottom: 45px !important;
+    margin-top: 20px !important
+}
+
+
 .pricing-box-responsive-two{
-    color: red !important;
     margin-bottom: 45px !important;
     margin-top: 20px !important
 }
 
 .pricing-box-responsive-three{
-    color: red !important;
     margin-bottom: 20px !important;
     margin-top: 20px !important
 }
@@ -161,7 +171,7 @@ border: 1px solid #ededed !important;
 }*/
 
 .pricing-tbl.style-3:hover h3, .pricing-tbl.style-3.selected h3 {
-     color: red; 
+     color: #000; 
 }
 
 .pricing-tbl.style-3 h3, .pricing-tbl.style-3.selected h3 {
