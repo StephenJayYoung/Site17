@@ -183,6 +183,14 @@ fixed-head {
     margin-top: 20px !important
 }
 
+@media (min-width: 991px) and (max-width: 1200px){
+    .pricing-box-responsive-one{
+        margin-bottom: 95px !important;
+    }
+}
+
+
+
 .d-codes{
     color: #444 !important;
 }
@@ -251,6 +259,21 @@ border: 1px solid #ededed !important;
 
 .click-for-info{
     font-size: 14px;
+}
+
+@media (min-width: 768px) and (max-width: 991px){
+    img {
+        padding: 5px !important;
+    }
+    .services-margin {
+    margin-bottom: 0px !important;
+    font-size: 17px;
+    }
+    .click-for-info{
+        font-size: 13px;
+        margin-bottom:15px;
+    }
+
 }
 
 /*Testimonials Overrides*/
