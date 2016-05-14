@@ -39,6 +39,10 @@ h2{
     color: #db5901 !important;
 }
 
+.close-modal.main-color, .new-nav>ul>li.selected>a, .one-page a:hover{
+    color: #db5901 !important;
+}
+
 .top-head.sticky-nav .top-nav > ul > li > a:hover{
     color: #db5901 !important;
 }
