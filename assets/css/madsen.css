@@ -34,6 +34,14 @@ h2{
      padding: 0px 0 !important; 
 }
 
+.close-modal.main-color, .new-nav>ul>li.selected>a, .one-page .current a:hover{
+    color: #db5901 !important;
+}
+
+.top-head.sticky-nav .top-nav > ul > li > a:hover{
+    color: #db5901 !important;
+}
+
 .top-head.header-4 .top-cart {
     padding: 0px 0 0 0px !important;
 }
