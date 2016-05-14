@@ -2,7 +2,7 @@
 
 body {
     color: #444;
-    font-family: 'Gentium Book Basic', serif;
+    font-family: 'Gentium Book Basic', serif !important;
 }
 
 p {
