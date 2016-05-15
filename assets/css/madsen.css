@@ -510,3 +510,7 @@ input, select, textarea {
 .btn-group-sm>.btn, .btn-sm {
     border-radius: 0px;
 }
+
+.modal .button:hover{
+    background-color: #b94b01 !important;
+}
