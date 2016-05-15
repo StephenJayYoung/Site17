@@ -260,7 +260,7 @@ blockquote{
 }
 
 /* #f5f5f5 */
-.pricing-tbl.style-3 .price_txt,.pricing-tbl.style-4 .plan-head,.pricing-tbl.style-4 .plan-head:before,.pricing-tbl.style-4 .plan-head:after,.pricing-tbl.style-2 h3,th,.testimonials-3 .testimonials-name{
+.pricing-tbl.style-3 .price_txt,.pricing-tbl.style-4 .plan-head,.pricing-tbl.style-4 .plan-head:before,.pricing-tbl.style-4 .plan-head:after,.pricing-tbl.style-2 h3,.testimonials-3 .testimonials-name{
 	background-color:#EFEFEF;
 }
 .pricing-tbl.style-2 h3:after {
@@ -596,19 +596,19 @@ blockquote span {
 }
 
 table {
-	border: 1px solid #e2e2e2;
-}
+/*	border: 1px solid #e2e2e2;
+*/}
 tr:nth-child(even) {
     background: #f3f3f3;
 }
 th {
-    border-right: 1px solid #e2e2e2;
-
-	border-bottom: 2px #777 solid;
-}
+/*    border-right: 1px solid #e2e2e2;
+*/
+/*	border-bottom: 2px #777 solid;
+*/}
 td, caption {
-	border-right: 1px solid #e2e2e2;
-	border-bottom: 1px solid #e2e2e2;
+/*	border-right: 1px solid #e2e2e2;
+/**//*	border-bottom: 1px solid #e2e2e2;*/
 }
 .bottom_tools a i{
 	color:#dadada
