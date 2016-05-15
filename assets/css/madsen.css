@@ -244,6 +244,7 @@ border: 1px solid #ededed !important;
     #calls-to-action h3 {font-size: 17px;}
 }
 
+.cta-doctor{ font-size: 25px !important;}
 
 .device-xs #calls-to-action .phone-numbers, .device-xs #calls-to-action .schedule-online,
 .device-xxs #calls-to-action .phone-numbers, .device-xxs #calls-to-action .schedule-online{border-left:none;border-right:none;padding-left:0;padding-right:0;text-align:center;}
