@@ -506,3 +506,7 @@ input, select, textarea {
 #email-field {
 	display: none;
 }
+
+.btn-group-sm>.btn, .btn-sm {
+    border-radius: 0px;
+}
