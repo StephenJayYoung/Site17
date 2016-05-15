@@ -426,6 +426,18 @@ head.header-2 .top-cart.new-angle > a:before {
 	}
 }*/
 
+.modal-header .close {
+    font-size: 90px;
+    line-height: .24;
+    color: #e1e3e4 !important;
+    margin: -2px !important;
+    padding-top: 5px !important;
+    padding-bottom: 22px !important;
+    margin-bottom: 15px;
+    border-width: 1.3px !important;
+    opacity: .99 !important;
+    }
+
 	.modal-header {
   border-bottom: none !important; 
 }
