@@ -345,8 +345,17 @@ border: 1px solid #ededed !important;
 
 #location{
     background-color: #fff;
-} 
+}
 
+@media(max-width: 480px){
+       #map_canvas{
+        height: 300px; width: 100%;
+    }
+}
+
+#map_canvas{
+    height: 450px; width: 100%;
+}
 
 head.header-2 .top-cart.new-angle > a:before {
      border-top-right-radius: none !important; 
