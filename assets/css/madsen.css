@@ -469,6 +469,9 @@ head.header-2 .top-cart.new-angle > a:before {
 	display: inline;
 }
 
+.label{
+    font-size: 100% !important;
+}
 
 table {
 	width: 100%;

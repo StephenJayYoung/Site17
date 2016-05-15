@@ -599,8 +599,8 @@ table {
 /*	border: 1px solid #e2e2e2;
 */}
 tr:nth-child(even) {
-    background: #f3f3f3;
-}
+/*    background: #f3f3f3;
+*/}
 th {
 /*    border-right: 1px solid #e2e2e2;
 */
