@@ -91,6 +91,13 @@ h2{
     padding-left: 22px;
 }
 
+.mobile-logo-madsen{
+    padding-bottom: 10px; padding-top: 15px
+}
+
+.mobile-logo{
+    width: 44%; height: 44%;
+}
 
 @media(min-width: 768px) and (max-width: 991px){
     .logo{
