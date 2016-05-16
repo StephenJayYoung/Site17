@@ -140,10 +140,19 @@ fixed-head {
 
 .family-text{
     margin-top: 15px;
+    font-size: 21px;
 }
 
 .doctor-text{
     font-size: 21px
+}
+
+.doctor-accolades{
+    margin-top: 15px; margin-left: 15px; font-size: 15px
+}
+
+.social-list{
+
 }
 
 .doctor-subtext{
@@ -204,6 +213,10 @@ fixed-head {
 }
 
 /*Specials Overrides*/
+
+.offer-ends{
+    color: #db5901; font-size: 31px; font-family: 'Open Sans', sans-serif;
+}
 
 .pricing-tbl .price-lg {
     font-size: 46px;
@@ -342,6 +355,8 @@ fixed-head {
 .device-xxs #calls-to-action .existing-patients p{font-size:20px;}
 #calls-to-action .existing-patients p a{font-weight:bold;}
 @media(max-width: 762px){.existing-patients p a{margin-top:-10px;display:block;}}
+
+.existing-patients-desktop{padding-top: 10px}
 
 #calls-to-action .btn{
     background-color: #fff !important;
