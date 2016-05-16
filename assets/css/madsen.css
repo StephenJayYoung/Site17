@@ -99,9 +99,33 @@ fixed-head {
     list-style: disc;
 }
 
-    .family-text{
-        margin-top: 15px;
+.family-text{
+    margin-top: 15px;
+}
+
+.smile-text{
+    margin-top: -20px; 
+    margin-bottom: 30px; 
+    font-size: 16px
+}
+
+@media (min-width: 768px) and (max-width: 991px){
+        .smile-text{
+        font-size: 14px
     }
+}
+
+@media (min-width: 480px) and (max-width: 768px){
+        .smile-text{
+        font-size: 17px
+    }
+}
+
+@media (max-width: 480px){
+        .smile-text{
+        font-size: 14px
+    }
+}
 
 .doctor-info{
 border: 1px solid #000; padding-bottom: 35px;
