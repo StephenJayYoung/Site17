@@ -179,7 +179,7 @@
 
     			<div>
     				<div class="container">
-    					<div class="flexslider boxed-slider" style="box-shadow: none; margin-bottom: -85px">
+    					<div class="flexslider boxed-slider" style="box-shadow: none;">
 							<ul class="slides">
 								<li>
 									<img alt="" src="assets/images/team/1.jpg" />
@@ -195,8 +195,8 @@
     				</div>
     			</div>
 
-					<div class="text-center hidden-xs" style="margin-top: 80px">
-					<h4 style="margin-bottom: 17px; font-size: 15px">Dr. Christopher Madsen and his family welcome you to a wonderful dental experience that is sure to make you smile!</h4>
+					<div class="text-center hidden-xs">
+					<h4 style="margin-top: 20px; margin-bottom: 30px; font-size: 15px">Dr. Christopher Madsen and his family welcome you to a wonderful dental experience that is sure to make you smile!</h4>
 				</div>
 					
 						<div class="container">
@@ -1085,7 +1085,11 @@ jQuery(document).ready(function($){
 			$(window).load(function() {
 				$('.flexslider').flexslider({
 					animation: "fade",
-					controlNav: false
+					controlNav: false,
+					prevText: false,
+					nextText: false,
+					controlsContainer: false,
+					manualControls: false
 				});
 			});
 		</script>
