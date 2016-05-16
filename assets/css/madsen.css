@@ -99,10 +99,9 @@ fixed-head {
     list-style: disc;
 }
 
-.family-text{
-    margin-bottom: 30px;
-}
-
+    .family-text{
+        margin-top: 15px;
+    }
 
 .doctor-info{
 border: 1px solid #000; padding-bottom: 35px;
