@@ -102,23 +102,25 @@ fixed-head {
     list-style: disc;
 }
 
-.flex-nav-next {
+/*.flex-nav-next {
    display:none;
 }
 
 .flex-nav-prev {
    display:none;
-}
+}*/
 
 .doctor-info{
-border: 1px solid #000; padding-bottom: 35px; padding-right: -10px;
+border: 1px solid #000; padding-bottom: 35px;
+box-sizing: border-box;
+padding-bottom: 10px;
+padding-left: 10px;
 }
 
 @media (max-width: 768px){
     .doctor-info{
-        padding-top: 40px !important;
-        border: none !important;
-    }
+/*        border: none !important;
+*/    }
 }
 
 /*Specials Overrides*/
