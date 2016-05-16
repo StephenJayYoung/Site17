@@ -81,9 +81,6 @@ h2{
     padding: 60px 0 !important;
 }
 
-/*.top-head.header-3, .top-head.header-4 {
-    padding: 40px 0 0;
-}*/
 
 fixed-head {
     border: 1px rgba(255,255,255,0.4) solid;
@@ -110,7 +107,7 @@ fixed-head {
 .doctor-info{
 border: 1px solid #000; padding-bottom: 35px;
 box-sizing: border-box;
-padding-bottom: 10px;
+padding-bottom: 15px;
 padding-left: 10px;
 }
 
@@ -255,7 +252,7 @@ border: 1px solid #ededed !important;
 #calls-to-action .phone-numbers{border-right:1px solid #fff;padding-right:20px;padding-bottom: 18px;text-align:right;}
 #calls-to-action .schedule-online{padding-left:20px;text-align:left;}
 @media (max-width: 768px){
-    #calls-to-action{padding-top: 30px; padding-bottom: 30px;}
+    #calls-to-action{padding-top: 0px; padding-bottom: 30px;}
     #calls-to-action .phone-numbers, #calls-to-action .schedule-online{
     border-left:none;border-right:none;padding-left:0;padding-right:0;text-align:center;}
     #calls-to-action .existing-patients p{font-size:20px;}
