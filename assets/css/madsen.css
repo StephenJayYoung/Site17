@@ -39,6 +39,28 @@ h2{
 }
 
 /*Nav Overrides*/
+
+.desktop-logo{
+    width: 44%!important; 
+    height: 44% !important;
+}
+
+#top-info{
+    padding-top: 35px !important;
+}
+
+.top-bar-nph{
+    font-size: 28px;
+    color: #db5901 !important; 
+    font-weight: bold;
+}
+
+.top-bar-existing{
+    font-weight: bold;
+    color: #db5901 !important;
+    font-size: 23px;
+}
+
 .up-head {
      padding: 0px 0 !important; 
 }
