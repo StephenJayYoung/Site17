@@ -114,6 +114,17 @@ fixed-head {
     border: 1px rgba(255,255,255,0.4) solid;
 }
 
+/*Slider Overrides*/
+
+.slider-button{
+    margin-left: 20px; 
+    margin-right: 20px; 
+    padding-top: 25px; 
+    padding-bottom: 25px; 
+    font-size: 26px; 
+    border: 1px solid #fff !important;
+}
+
 /*Team Overrides*/
 
 #team{
@@ -129,6 +140,22 @@ fixed-head {
 
 .family-text{
     margin-top: 15px;
+}
+
+.doctor-text{
+    font-size: 21px
+}
+
+.doctor-subtext{
+    font-size: 15px; margin-top: -5px
+}
+
+.boxed-slider{
+    box-shadow: none !important;
+}
+
+.doctor-header{
+    margin-top: 15px
 }
 
 .smile-text{
@@ -156,10 +183,10 @@ fixed-head {
 }
 
 .doctor-info{
-border: 1px solid #000; padding-bottom: 35px;
-box-sizing: border-box;
-padding-bottom: 15px;
-padding-left: 10px;
+    border: 1px solid #000; padding-bottom: 35px;
+    box-sizing: border-box;
+    padding-bottom: 15px;
+    padding-left: 10px;
 }
 
 @media(max-width: 991px){
@@ -329,6 +356,13 @@ padding-left: 10px;
     background-color: #f3f1dc !important;
 }
 
+.phone-numbers-desktop{
+    margin-top: -20px
+}
+
+.existing-patients-desktop{
+    padding-top: 10px !important
+}
 
 /*Services Overrides*/
 .services-margin{margin-bottom: 0px !important; color: #DB5A00; font-size: 21px;}
