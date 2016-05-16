@@ -386,6 +386,14 @@ fixed-head {
     background-color: #F3F2DB;
 }
 
+.services-header{
+    margin-bottom: 0px
+}
+
+.services-subtext{
+    margin-top: 0px; margin-bottom: 30px
+}
+
 .click-for-info{
     font-size: 14px;
 }
@@ -439,6 +447,26 @@ fixed-head {
 /*Reviews Overrides*/
 .testimonials-4 .testimonials-bg {
      border: none !important; 
+}
+
+.parallax-overlay{
+    background-color:rgba(0,0,0,.5)
+}
+
+.reviews-text{
+    color: #fff
+}
+
+.reviews-stars{
+    margin-bottom: 20px; font-size: 30px; color: #FFDF00
+}
+
+.reviews-review{
+    font-size: 23px
+}
+
+.reviews-name{
+    font-size: 21px
 }
 
 /*Location Overrides*/
